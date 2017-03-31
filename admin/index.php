@@ -1,7 +1,7 @@
 <?php
 session_start();
 include_once('../library/PDOFactory.php');
-include_once('.../models/entities/User.php');
+include_once('..../models/entities/User.php');
 include_once('../models/entities/personne.php');
 include_once('../models/entities/client.php');
 include_once('../models/repositories/userRepository.php');
