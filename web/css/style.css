@@ -1,0 +1,627 @@
+/* HEADER (contenu dans le layout)*/
+body {
+	background-color: #f3f2f0;
+}
+.logo {
+	padding: 15px;
+}
+
+.icon{
+	padding-right: 60px;
+	padding-top: 30px;
+}
+.telHeader {
+	padding-top: 70px;
+	text-align: center;
+}
+.telHeader>span>.fa-custom {
+	margin-right: 10px;
+	font-size: 25px;
+	height: 25px;
+	width: 25px;
+	border: solid #C4C4C4 1px;
+	border-radius: 50%;
+	color: white;
+	background-color: #C4C4C4;
+}
+header {
+	min-height: 150px;
+}
+.menuVille li {
+	float: left;
+	width: 10%;
+	text-align: center;
+	list-style-type: none;
+	margin: 0px;
+	padding: 5px;
+	color: white;
+	font-size: 14px;
+}
+.menuVille>li>span {
+	text-transform: uppercase;
+}
+.row li {
+	width: 14.285%;
+}
+.colorfdb515:hover {
+	background-color: #fdb515;
+	cursor: pointer;
+}
+.colored3126:hover {
+	background-color: #ed3126;
+	cursor: pointer;
+}
+.coloref7a35:hover {
+	background-color: #ef7a35;
+	cursor: pointer;
+}
+.color00b6de:hover {
+	background-color: #00b6de;
+	cursor: pointer;
+}
+.color58bf94:hover {
+	background-color: #58bf94;
+	cursor: pointer;
+}
+.menuVille {
+	min-height: 30px;
+	background-color: #686868;
+	margin: 0px;
+	padding: 0px;
+	display: 
+}
+
+/* INDEX (controleur index.php)*/
+
+.boutonIndex {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 0px;
+	height: 50px;
+	width: 200px;
+	box-shadow: 5px 5px 5px black;
+	color: white;
+	border-radius: 10px;
+}
+.bleu {
+	background-color: #6495ED;
+}
+.rouge {
+	background-color: #FF6347;
+}
+
+/* PAGE VISITEUR (views/pageVisiteur.php)*/
+.cadre_formulaire {
+	border: solid black 2px;
+	border-radius: 15px;
+}
+.slider {
+	width: 1130px;
+	height: 410px;
+	overflow: hidden;
+	
+}
+.slider li {
+	width:1130px; 
+	height:410px;
+	float: left;
+}
+.slider ul {
+	list-style-type:none;
+	padding: 0;
+	margin: 0;
+	transition: all 0.25s;
+}
+.slider .row {
+	max-width: 1170px;
+}
+
+/* partie formulaire campus */
+.titleBlue{
+	border: blue solid 2px;
+	width: 50%;
+	margin-left: 25%;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #00b6de;
+	color: white;
+	text-align: center;
+}
+
+.titleRed {
+	border: red solid 2px;
+	width: 50%;
+	margin-left: 25%;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #ED3737;
+	color: white;
+	text-align: center;
+}
+.selectCampus {
+	text-transform: uppercase;
+	width: 70%;
+	margin-left: 15%;
+	padding-top: 15px;
+}
+.selectCampus input {
+	margin-left: 5%;
+}
+
+/* partie formulaire informations */
+
+.selectInfo {
+	padding-top: 15px;
+}
+.selectInfo1 {
+	width: 100%;
+}
+.selectInfo1 label,input {
+	margin: 10px;
+}
+.selectInfo2 {
+	width: 80%;
+	margin-left: 8%;
+}
+.selectInfo3 {
+	margin-left: 8%;
+}
+
+/* bouton "suivant" et précédent et terminer */
+
+.suivant {
+	height: 45px;
+	width: 80px;
+	margin-right: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #00b6de;
+	box-shadow: 3px 3px 4px black;
+	color: white;
+	transition: all 0.5s;
+	padding: 5px;
+	text-align: center;
+}
+
+.suivant:hover{
+	height: 45px;
+	width: 80px;
+	margin-right: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #00b6de;
+	box-shadow: none;
+	opacity: 0.8;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.precedent {
+	height: 45px;
+	width: 80px;
+	margin-left: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #2C9C33;
+	box-shadow: 3px 3px 4px black;
+	color: white;
+	transition: all 0.5s;
+	padding: 5px;
+	text-align: center;
+}
+.precedent:hover {
+	height: 45px;
+	width: 80px;
+	margin-left: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #2C9C33;
+	box-shadow: none;
+	color: white;
+	transition: all 0.5s;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.terminer {
+	height: 45px;
+	width: 80px;
+	margin-left: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #F52C2C;
+	box-shadow: 3px 3px 4px black;
+	color: white;
+	transition: all 0.5s;
+	padding: 5px;
+	text-align: center;
+}
+.terminer:hover {
+	height: 45px;
+	width: 80px;
+	margin-left: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #F52C2C;
+	box-shadow: none;
+	color: white;
+	transition: all 0.5s;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.terminer>a {
+	color: white;
+	text-decoration: none;
+}
+
+/* partie formulaire situation */
+.titleBlue1{
+	border: blue solid 2px;
+	width: 50%;
+	margin-left: 25%;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #00b6de;
+	color: white;
+	text-align: center;
+}
+
+.selectSituation {
+	padding-top: 15px;
+	width: 40%;
+	margin-left: 30%;
+}
+.selectSituation input {
+	margin-left: 5%;
+}
+
+/* partie réorientaion */
+
+.selectDispo {
+	padding-top: 15px;
+	width: 90%;
+	margin-left: 23%;
+}
+.selectDispo input {
+	margin-left: 2%;
+}
+
+.pad {
+	padding-top: 65px;
+}
+
+/* partie formulaire formation */
+.titleBlue2{
+	border: blue solid 2px;
+	width: 50%;
+	margin-left: 25%;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #00b6de;
+	color: white;
+	text-align: center;
+}
+
+.selectFormation {
+	width: 90%;
+	margin-left: 5%;
+}
+.selectFormation input {
+	margin-left: 20px;
+}
+
+
+/* accueil */
+
+.button {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #ED3737;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+	margin-left:40%;
+	margin-top:10%;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+.obligatoire {
+	color: red;
+	font-size: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+	/* partie formulaire campus */
+.titleBlue{
+	border: blue solid 2px;
+	width: 40%;
+	margin-left: 20%;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #00b6de;
+	color: white;
+	text-align: center;
+}
+.titleBlue1{
+	border: blue solid 2px;
+	width: 40%;
+	margin-left: 25%;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #00b6de;
+	color: white;
+	text-align: center;
+}
+
+
+.titleBlue2{
+	border: blue solid 2px;
+	width: 40%;
+	margin-left: 40%;
+	padding: 5px;
+	border-radius: 15px;
+	background-color: #00b6de;
+	color: white;
+	text-align: center;
+}
+
+.titleRed {
+	border: red solid 2px;
+	width: 50%;
+	margin-left: 25%;
+	border-radius: 15px;
+	background-color: #ED3737;
+	color: white;
+	text-align: center;
+}
+.selectCampus {
+	text-transform: uppercase;
+	width: 55%;
+	padding-top: 15px;
+	margin-left: 8%;
+}
+
+
+/* partie formulaire informations */
+.selectInfo1 {
+	text-transform: uppercase;
+	width: 80%;
+	
+}
+.selectInfo1 label,input {
+	text-transform: uppercase;
+	
+}
+.selectInfo2 {
+	text-transform: uppercase;
+	width: 70%;
+	margin: 3%;
+	margin-left:1%;
+}
+.selectInfo3 {
+	text-transform: uppercase;
+	width: 70%;
+	margin:3%;
+	margin-left:1%;
+}
+
+.suivant {
+	height: 45px;
+	width: 80px;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #00b6de;
+	box-shadow: 3px 3px 4px black;
+	color: white;
+	transition: all 0.5s;
+	text-align: center;
+	margin-right: 30%;
+}
+
+.suivant:hover{
+	height: 45px;
+	width: 80px;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #00b6de;
+	box-shadow: none;
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 30%;
+}
+.suivant1 {
+	height: 45px;
+	width: 90px;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #00b6de;
+	box-shadow: 3px 3px 4px black;
+	color: white;
+	transition: all 0.5s;
+	text-align: center;
+	margin-right: 20%;
+}
+
+.suivant1:hover{
+	height: 45px;
+	width: 80px;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #00b6de;
+	box-shadow: none;
+	opacity: 0.8;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 20%;
+}
+.slider {
+	width: 1024px;
+	height: 450px;
+	overflow: hidden;
+	
+}
+.slider li {
+	width:1024px; 
+	height:450px;
+	float: left;
+	overflow: scroll;
+}
+.slider ul {
+	list-style-type:none;
+	padding: 0;
+	margin: 0;
+	transition: all 0.25s;
+}
+.slider .row {
+	max-width: 1024px;
+}
+.selectSituation {
+	padding-top: 15px;
+	width: 100%;
+	margin-left: 15%;
+}
+.selectSituation input {
+	margin-left: 5%;
+}
+
+/* partie réorientaion */
+
+.selectDispo {
+	padding-top: 15px;
+	width: 100%;
+	margin-left: 7%;
+}
+.selectDispo input {
+	margin-right:2%;
+}
+.precedent {
+	height: 45px;
+	width: 80px;
+	margin-left: 15%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #2C9C33;
+	box-shadow: 3px 3px 4px black;
+	color: white;
+	transition: all 0.5s;
+	padding: 5px;
+	text-align: center;
+}
+.precedent:hover {
+	height: 45px;
+	width: 80px;
+	margin-left: 15%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #2C9C33;
+	box-shadow: none;
+	color: white;
+	transition: all 0.5s;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.precedent1 {
+	height: 45px;
+	width: 80px;
+	margin-left: 25%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #2C9C33;
+	box-shadow: 3px 3px 4px black;
+	color: white;
+	transition: all 0.5s;
+	padding: 5px;
+	text-align: center;
+}
+.precedent1:hover {
+	height: 45px;
+	width: 80px;
+	margin-left: 25%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #2C9C33;
+	box-shadow: none;
+	color: white;
+	transition: all 0.5s;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.terminer {
+	height: 45px;
+	width: 80px;
+	margin-right: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #F52C2C;
+	box-shadow: 3px 3px 4px black;
+	color: white;
+	transition: all 0.5s;
+	padding: 5px;
+	text-align: center;
+}
+.terminer:hover {
+	height: 45px;
+	width: 80px;
+	margin-right: 5%;
+	border-radius: 15px 0px 15px 0px;
+	border: black solid 2px;
+	background-color: #F52C2C;
+	box-shadow: none;
+	color: white;
+	transition: all 0.5s;
+	padding: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.terminer>a {
+	color: white;
+	text-decoration: none;
+}
+
+.selectFormation1 {
+	width: 70%;
+	margin-left: 30%;
+}
