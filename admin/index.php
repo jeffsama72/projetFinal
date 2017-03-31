@@ -1,12 +1,12 @@
 <?php
 session_start();
-include_once('/projetFinal/library/PDOFactory.php');
-include_once('/projetFinal/models/entities/User.php');
-include_once('/projetFinal/models/entities/personne.php');
-include_once('/projetFinal/models/entities/client.php');
-include_once('projetFinal/models/repositories/userRepository.php');
-include_once('/projetFinal/models/repositories/ClientRepository.php');
-include_once('/projetFinal/models/repositories/exportRepository.php');
+include_once('./projetFinal/library/PDOFactory.php');
+include_once('./projetFinal/models/entities/User.php');
+include_once('./projetFinal/models/entities/personne.php');
+include_once('./projetFinal/models/entities/client.php');
+include_once('./projetFinal/models/repositories/userRepository.php');
+include_once('./projetFinal/models/repositories/ClientRepository.php');
+include_once('./projetFinal/models/repositories/exportRepository.php');
 
 
 $pdo = PDOFactory::getMysqlConnection();
